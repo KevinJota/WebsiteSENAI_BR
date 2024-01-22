@@ -1,0 +1,131 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+header {
+    display: flex;
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    background-color: black;
+    color: white;
+    padding: 10px; 
+  }
+
+  #navbar ul {
+    list-style-type:none;
+    display: flex; /* Torna a lista um container flex */
+    justify-content: center; /* Alinha os itens da lista horizontalmente ao centro */
+    align-items: center; /* Alinha os itens da lista verticalmente ao centro */
+}
+ 
+  #navbar li {
+    display:inline;   
+    margin-right:100px; /* Ajuste conforme necessário */
+    text-align: center;  
+ }
+ 
+  #navbar a {
+    color:white;   
+    text-decoration:none;
+    font-size: 24px;   
+ }
+ .logoBLACKsenai{
+  width: 180px;
+  height: 75px;
+ }
+
+.container {
+    margin: 20px 40px;
+    color: white;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 30px;
+    color: #1b72a1;
+}
+
+.profiles {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+}
+
+.profile .profile-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.profile .profile-icon {
+    height: 30px;
+    width: 30px;
+    align-content: left;
+}
+
+.profile:hover .profile-img{
+    filter: grayscale(0);
+}
+
+.user-name {
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.profile h5 {
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: #ccc;
+}
+
+.profile p {
+    font-size: 10px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+@media only screen and (max-width: 1150px) {
+    .profiles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile p {
+        text-align: center;
+        margin: 20px 60px 80px 60px;
+        font-size: 10px;
+    }
+}
+
+
+   footer {
+    background-color: black;
+    color: white;
+    padding: 10px;  
+  }
+  
+  .footer-section a {
+    display: block;
+    color: #bcbcbc;
+    text-decoration: none; /* Remove o sublinhado */
+    margin-bottom: 5px; 
+  }
+  
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  .footer-image {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 55px;
+  }

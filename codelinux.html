@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/codelinux.css">
+    <title>SENAI_BR</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html"><img src="img/logooficial.png" class="logoBLACKsenai" alt="Retornar para página inicial"></a></li>
+                <li><a href="fpoo.html">FPOO</a></li>
+                <li><a href="lima.html">LIMA</a></li>
+                <li><a href="sop.html">SOP</a></li>
+                <li><a href="hare.html">HARE</a></li>
+                <li><a href="codelinux.html" style="color: red;">CODANDO NO LINUX</a></li>
+            </ul> 
+        </nav> 
+    </header>
+    <div class="container">
+        <h1>Como Instalar e Codificar no Linux pelo sistema operacional windows</h1>
+        <h2>Passo 1: Instalação do VirtualBox</h2>
+        <img src="img/VirtualBox Logo.jpg" alt="Imagem do VirtualBox">
+        <p>Primeiro, você precisará instalar o VirtualBox, que é um software de virtualização que permite executar um sistema operacional dentro de outro. Você pode baixar o VirtualBox no site oficial e seguir as instruções de instalação.</p>
+        <h2>Passo 2: Criação de uma Máquina Virtual Linux</h2>
+        <img src="img/5 reasons to start using Ubuntu.jpg" alt="Imagem da Máquina Virtual Linux">
+        <p>Depois de instalar o VirtualBox, você pode criar uma nova máquina virtual (VM) e instalar uma distribuição Linux de sua escolha nessa VM. Ubuntu é uma opção popular para iniciantes.</p>
+        <h2>Passo 3: Instalação do VS Code</h2>
+        <img src="img/Đánh giá Visual Studio Code_ Trình soạn thảo code đa nền tảng của Microsoft.jpg" alt="Imagem do VS Code">
+        <p>Para instalar o VS Code no Linux, você precisa seguir os seguintes passos:</p>
+        <pre>
+        sudo apt update  # Atualiza a lista de pacotes disponíveis
+        sudo apt install software-properties-common apt-transport-https wget  # Instala pacotes necessários para adicionar novos repositórios via HTTPS
+        wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -  # Baixa e adiciona a chave do repositório da Microsoft
+        sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"  # Adiciona o repositório do VS Code
+        sudo apt update  # Atualiza a lista de pacotes disponíveis após adicionar o novo repositório
+        sudo apt install code  # Instala o VS Code
+        </pre>
+        <h2>Passo 4: Instalação do Eclipse</h2>
+        <img src="img/How to Install Eclipse IDE on Ubuntu Linux.jpg" alt="Imagem do Eclipse">
+        <p>Para instalar o Eclipse no Linux, você precisa seguir os seguintes passos:</p>
+        <pre>
+        sudo apt update  # Atualiza a lista de pacotes disponíveis
+        sudo apt install default-jdk  # Instala o Java Development Kit (JDK), que é necessário para executar o Eclipse
+        wget https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2020-09/R/eclipse-inst-jre-linux64.tar.gz -O eclipse.tar.gz  # Baixa o instalador do Eclipse
+        tar -zxvf eclipse.tar.gz  # Extrai o arquivo baixado
+        cd eclipse-installer  # Navega até o diretório extraído
+        ./eclipse-inst  # Executa o instalador
+        </pre>
+        <h2>Passo 5: Começando a Codificar</h2>
+        <img src="img/Linux Terminal Commands.jpg" alt="Imagem de Codificação">
+        <p>Com seu ambiente de desenvolvimento configurado, agora você pode começar a codificar! Você pode criar um novo arquivo
+             em seu editor de texto ou IDE e começar a escrever o seu código.</p>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Fale conosco</h3>
+                <p>+55 11 9999-9999</p>
+                <p>R. Bento Branco de Andrade Filho, 379 Santo Amaro, São Paulo - SP, 04757-000</p>
+            </div>
+            <div class="footer-section">
+                <h3>Nossas redes sociais</h3>
+                <a href="https://www.facebook.com/senaisaopaulo/">Facebook</a>
+                <a href="https://www.youtube.com/@SenaiSaoPauloSP/featured">Youtube</a>
+                <a href="https://www.linkedin.com/school/senaisuico/">linkedin</a>
+            </div>
+        </div>
+        <img src="img/logooficial.png" class="footer-image">
+    </footer>
+    
+</body>
+</html>

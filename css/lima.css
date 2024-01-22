@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    background-color: black;
+    color: white;
+    padding: 10px;
+     
+  }
+
+  #navbar ul {
+    list-style-type:none;
+    display: flex; /* Torna a lista um container flex */
+    justify-content: center; /* Alinha os itens da lista horizontalmente ao centro */
+    align-items: center; /* Alinha os itens da lista verticalmente ao centro */    
+ }
+ 
+  #navbar li {
+    display:inline;   
+    margin-right:100px; /* Ajuste conforme necessário */
+    text-align: center;  
+ }
+ 
+  #navbar a {
+    color:white;   
+    text-decoration:none;
+    font-size: 24px;   
+ }
+
+ .logoBLACKsenai{
+    width: 180px;
+    height: 75px;
+   }
+
+ .iniciocurricular {
+    background-color: #F51801;
+    color: white;
+    text-align: center;
+    padding: 20px;
+ }
+
+ .logo_curricular{
+    width: 500px;
+    height: 210px;
+    border-radius: 40px;
+ }
+
+ .conteudopag {
+    margin: 0 auto; /* Centraliza a div na página */
+    padding: 0 10%; /* Adiciona um recuo de 10% em cada lado da div */
+    text-align: justify; /* Justifica o texto */
+    width: 80%;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+ .topics ul li {
+    border: 1px solid black; /* Adiciona uma borda ao redor de cada item de lista */
+    padding: 10px; /* Adiciona algum preenchimento dentro de cada item de lista */
+    margin-bottom: 30px; /* Adiciona algum espaço abaixo de cada item de lista */
+    list-style-type: none;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+}
+.yellow-button {
+  background-color: yellow; /* Cor de fundo do botão */
+  color: black; /* Cor do texto do botão */
+  border: none; /* Remove a borda padrão do botão */
+  padding: 15px 32px; /* Espaçamento interno do botão */
+  text-align: center; /* Alinha o texto ao centro */
+  border-radius: 10px;
+  text-decoration: none; /* Remove o sublinhado do texto */
+  display: inline-block;
+  font-size: 16px; /* Tamanho da fonte do texto */
+  margin: 4px 2px;
+  cursor: pointer; /* Muda o cursor para um ponteiro quando você passa o mouse sobre o botão */
+}
+
+.linux-section {
+ background-color: red;
+ color: black;
+ text-align: center;
+  padding: 20px;
+}
+
+.linuximg{
+  width: 495px;
+  height: 234px;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;  
+}
+
+.footer-section a {
+  display: block;
+  color: #bcbcbc;
+  text-decoration: none; /* Remove o sublinhado */
+  margin-bottom: 15px; /* Adiciona espaço abaixo de cada link */
+}
+
+/* Estilizar o conteúdo do rodapé */
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; /* Alinha os itens ao topo */
+}
+
+.footer-image {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: 55px;
+}

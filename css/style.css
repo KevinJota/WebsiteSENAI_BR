@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    background-color: black;
+    color: white;
+    padding: 10px; 
+  }
+
+  #navbar ul {
+    list-style-type:none;
+    display: flex; /* Torna a lista um container flex */
+    justify-content: center; /* Alinha os itens da lista horizontalmente ao centro */
+    align-items: center; /* Alinha os itens da lista verticalmente ao centro */
+}
+ 
+  #navbar li {
+    display:inline;   
+    margin-right:100px; /* Ajuste conforme necessário */
+    text-align: center;  
+ }
+ 
+  #navbar a {
+    color:white;   
+    text-decoration:none;
+    font-size: 24px;   
+ }
+ .logoBLACKsenai{
+  width: 180px;
+  height: 75px;
+ }
+.inicio{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.logo_inicio {
+    background-color: #F51801;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logoREDsenai{
+    width: 600px;
+    height: 220px;
+}
+
+.curricular {
+  background-color:#000000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.curricular h3 {
+  font-size: 2em; /* Aumenta o tamanho do texto */
+  margin-top: -150px; /* Aproxima o texto do slider de imagens */
+}
+
+.container-slider {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin-top: -80px;
+}
+
+.container-images {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+}
+
+.slider {
+  opacity: 0;
+  transition: opacity .2s;
+  position: absolute;
+  width: 520px;
+  height: 360px;
+  border-radius: 10px;
+}
+
+.on {
+  opacity: 1;
+}
+
+#prev-button, #next-button {
+  width: 110px;
+  height: 85px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#prev-button img, #next-button img {
+  width: 100%;
+  height: 100%;
+}
+
+#prev-button {
+  transform: rotate(180deg);
+}
+
+.equipemeet {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.avataricons {
+    width: 822px;
+    height: 208px;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+  }
+
+.yellow-button {
+    background-color: yellow; /* Cor de fundo do botão */
+    color: black; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão do botão */
+    padding: 15px 32px; /* Espaçamento interno do botão */
+    text-align: center; /* Alinha o texto ao centro */
+    border-radius: 10px;
+    text-decoration: none; /* Remove o sublinhado do texto */
+    display: inline-block;
+    font-size: 16px; 
+    margin: 4px 2px;
+    cursor: pointer; 
+  }
+
+.red-button {
+    background-color: red;
+    color: white;
+    border: none; 
+    padding: 15px 32px;
+    text-align: center; /* Alinha o texto ao centro */
+    border-radius: 10px;
+    text-decoration: none; /* Remove o sublinhado do texto */
+    display: inline-block;
+    font-size: 16px; /* Tamanho da fonte do texto */
+    margin: 4px 2px;
+    cursor: pointer; 
+  }
+
+.tech-section {
+   background-color: white;
+   color: black;
+   text-align: center;
+    padding: 20px;
+}
+
+.techimg{
+    width: 495px;
+    height: 234px;
+    border-radius: 20px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;  
+}
+
+.footer-section a {
+  display: block;
+  color: #bcbcbc;
+  text-decoration: none; 
+  margin-bottom: 15px; 
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; 
+}
+
+.footer-image {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: 55px;
+}
+  
+ 
